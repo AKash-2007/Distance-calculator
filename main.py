@@ -7,6 +7,7 @@ while True:
     print("Distance between two points=",distance)
     print(" "*28,len(str(distance))*"-")
     a=input("Do you want to continue or exit? (yes/no):  ")
+    print("--"*30)
     if a=="no":
         print("Thank you")
         break
